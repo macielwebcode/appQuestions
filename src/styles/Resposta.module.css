@@ -1,0 +1,47 @@
+.resposta{
+    display: flex;
+    height: 100px;
+    margin: 10px;
+    width: 80%;
+    min-width: 500px;
+    /* background-color: burlywood; */
+}
+
+.conteudoResposta{
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.frente, .vers{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.frente{
+    color: #000000;
+    background: #ffffff;
+    align-items: center;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.letra{
+    height: 2.5rem;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-right: 13px;
+    color: #ffffff;
+}
+
+.valor{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
