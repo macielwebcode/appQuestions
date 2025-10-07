@@ -45,3 +45,16 @@
     font-size: 1.3rem;
     font-weight: 700;
 }
+.verso > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    border-radius: 0.75rem;
+}
+.certa{
+    background-color: #2BAA6D;
+}
+.errada{
+    background-color: #E44A4C;
+}
